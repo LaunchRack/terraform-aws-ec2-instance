@@ -58,7 +58,7 @@ Creates an EC2 instance with static EIP and an EBS volume
 
 ## Usage
 ```hcl
-module "aws_key_pair" {
+module "aws_ec2_instance" {
   source        = "git::https://github.com/LaunchRack/terraform-aws-ec2-instance.git"
 
   ami                       = ["ami-xxxxxxxxxxxxxxxxx"]
